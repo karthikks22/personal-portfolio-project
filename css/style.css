@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background:url('../img/M5jY14.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Home page*/
+.container{
+    max-width:1140px;
+    margin:auto;
+}
+.title{
+    color:white;
+}
+.title h1{
+    font-family:"poppins";
+    font-size: 48px;
+    line-height:48px;
+    margin-top:230px;
+    margin-bottom:10px;
+}
+.title p{
+    font-family: "raleway";
+    font-size: 24px;
+    line-height:50px;
+    color:rgba(255, 255, 255, 0.8);
+    margin-bottom:15px;
+    font-weight:500;
+}
+.title .green{
+    border-bottom:2px solid #18d26e;
+    padding-bottom:6px;
+    color:white;
+}
+.navbar ul li {
+    display:inline;
+    margin-right:20px;
+    font-family: "poppins";
+ 
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight:400;
+    font-size:16px;
+    color:rgba(255, 255, 255, 0.8);
+    transition:ease-in-out 0.3s;
+}
+.navbar ul li a:hover{
+    color:#fff;
+    border-bottom: 2px solid  #18d26e;
+}
+/*----ABOUT-SECTION----*/
+.title-navbar{
+    display:flex;
+    justify-content:space-between;
+    background:rgba(0, 0, 0, 0.9);
+    height:80px;
+    align-items: center;
+    padding-right: 220px;
+    margin-bottom:30px;
+
+    
+}
+.logo h1{
+    font-family:"poppins";
+    font-size: 36px;
+    line-height:48px;
+    color:white;
+    margin-left:200px;
+
+}
+.navbar-about ul li{
+    display:inline-flex;
+    margin-right:20px;
+    font-family: "poppins";
+}
+.navbar-about ul li a{
+    text-decoration:none;
+    font-weight:400;
+    font-size:16px;
+    color:rgba(255, 255, 255, 0.8);
+}
+.navbar-about ul li a:hover{
+    color:#fff; 
+}
+
+.container-about{
+    background:rgba(0, 0, 0, 0.77);
+    max-width:1140px;
+    margin: 0 auto;
+    margin-bottom:50px;
+}
+.text h1{
+    color:white;
+    font-family: "poppins";
+    font-size:36px;
+    line-height: 54px;
+    text-transform:uppercase;
+    color:#fff;
+}
+.text p{
+    font-family: "poppins";
+    font-size:14px;
+    line-height: 16px;
+    color:#fff;
+    padding-top:20px;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
+.text p:after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.about-info {
+    color:white;
+    display:flex;
+    
+}
+.about-img{
+    flex-basis:30%;
+}
+.about-detail{
+    flex-basis: 60%;
+    padding:10px;
+}
+.about-img img{
+    width:340px;
+    height:385px;
+}
+.name h1{
+    font-size:26px;
+    font-weight: 800;
+        color: #18d26e;
+        font-family: "raleway";
+        line-height: 36px;;
+        margin-bottom:8px;
+}
+.name p{
+   font-family:"open sans";
+   line-height: 24px;
+   font-style: italic;
+   margin-bottom:16px;
+}
+span {
+    font-family: "open sans";
+    font-weight:bold;
+}
+.name-list {
+    display:flex;
+    margin-bottom:15px;
+}
+.name-list-left{
+    flex-basis: 50%;
+}
+.name-list ul li{
+    font-family: "open sans";
+    list-style: none;
+    line-height: 32px;;
+}
+.name-list ul li:before{
+    content:"";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #4ceb95;
+    border-radius: 50%;
+    margin-right:6px;
+}
+.last-para{
+    font-family:"open sans";
+    line-height: 24px;
+    margin-bottom:30px;
+}
+.border-b {
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.happy{
+    background:rgba(44, 43, 43, 0.78);
+    width:187px;
+    padding:20px;
+    text-align: center;
+    font-family:"raleway";  
+  
+}
+.happy h1{
+    font-family:"open sans";
+    line-height: 54px;
+    font-size:30px;
+}
+ .happy i{
+font-size:15px;
+background: rgba(44, 43, 43, 0.58);
+padding: 12px;
+color: #18d26e;
+border-radius: 50px;
+}
+.happy p{
+    font-size:16px;
+}
+.happy-1{
+    margin-left:15px;
+}
+.happy-2{
+    margin-right: 15px;;
+}
+.skills{
+    margin-top:30px;
+    padding:0 20px;
+    font-family: "poppins";
+}
+.skills p{
+   
+    font-family: "poppins";
+    font-size:14px;
+    line-height: 16px;
+    color:#fff;
+    padding-top:20px;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    letter-spacing: 2;
+    margin-bottom: 20px;;
+}
+.skills p:after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.skills-6{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.no{
+    float:right;
+    font-style: normal;
+}
+.bar{
+display: block;
+height: 10px;
+width:525px;
+background-color: #18d26e;
+margin:10px  0px;
+}
+.skills-1 h1 ,
+.skills-2 h1{
+    font-family:"poppins";
+    font-size:12px;
+    clear:both;
+}
+.interest {
+    color:white;
+}
+
+
+.interest-sec{
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    font-family:"raleway";
+
+}
+.interest-1{
+   background:rgba(44, 43, 43, 0.58);
+   padding:30px 50px 20px 50px;;
+   margin:20px 30px;
+}
+
+.interest-1:hover{
+      background:rgba(255, 255, 255, 0.12);
+}
+.interest p{
+    font-family: "poppins";
+    font-size:14px;
+    line-height: 16px;
+    color:#fff;
+    padding-top:20px;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    letter-spacing: 2;
+    margin-bottom: 20px;
+    margin-left:25px;
+}
+.interest p:after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.interest-1 i{
+    position: relative;
+    left:-20px;
+    top:-19px;
+    color:green;
+    font-size:20px;
+}
+.interest-1 h1{
+    margin-left:3px;
+
+}
+.testimonials{
+    color:white;
+}
+.testimonials-sec{
+    display: flex;
+    margin-top:20px;
+}
+.testimonials-sec p{
+    background:rgba(44, 43, 43, 0.58);
+    padding:20px 20px 60px 20px;
+    margin-right:15px;
+    border-radius: 5px;
+    font-family: "open sans";
+    font-style:italic;
+    line-height: 24px;;
+}
+.testimonials h2{
+    font-family: "poppins";
+    font-size:14px;
+    line-height: 16px;
+    color:#fff;
+    padding-top:20px;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    letter-spacing: 2;
+    margin-bottom: 20px;;
+}
+.testimonials h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.testimonials-sec img{
+    width: 90px;
+border-radius: 50%;
+margin: -40px 0 0 40px;
+position: relative;
+z-index: 2;
+border: 6px solid rgba(255, 255, 255, 0.12);
+}
+.testimonials-sec h1
+{
+    font-family:"raleway";
+    margin:10px 0px 2px 45px;
+    text-transform: capitalize;
+    
+}
+.testimonials-sec h3 {
+    font-family:"raleway";
+    font-size:10px;
+    color: rgba(196, 186, 186, 0.12);
+ margin-left:50px;
+ padding-bottom: 20px;;
+}
+.head-3{
+    color:white;
+}
+.head-3 p::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.head-3 p{
+    font-size: 14px;
+font-weight: 500;
+padding: 0;
+line-height: 1px;
+margin: 0 0 30px 0;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #aaaaaa;
+font-family: "Poppins", sans-serif;
+}
+.head-3 h1{
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+/*----RESUME SECTION----*/
+.resume-1{
+    color:white;
+    display: flex;
+}
+.name-1{
+    flex-basis: 60%;
+    margin-right:20px;
+}
+.resume-1 h1{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "raleway";
+    margin-left:20px;
+}
+.resume-1 h2{
+    line-height: 18px;
+font-size: 18px;
+font-weight: 600;
+text-transform: uppercase;
+font-family: "Poppins", sans-serif;
+color: #18d26e;
+margin-bottom: 10px;
+padding-left: 20px;
+
+}
+.resume-1 h3{
+font-family:"raleway";
+font-size: 16px;
+background: rgba(255, 255, 255, 0.15);
+padding: 5px 15px;
+display: inline-block;
+font-weight: 600;
+margin-top: 10px;
+margin-left: 40px;
+}
+.resume-1 p{
+    font-family:"open sans";
+    font-style: italic;
+   margin:20px 0px;
+   font-size:16px;
+   line-height: 24px;;
+   padding-left: 40px;
+}
+.resume-1 ul li{
+    font-family:"open sans";
+    padding-left: 20px;
+    list-style: none;
+    line-height: 30px;;
+    margin-left: 20px;
+}
+.resume-1 h2::before{
+    content: '';
+    width:15px;
+    height:15px;
+    display:inline-block;
+    background:#18d26e;
+    border-radius: 50%;
+    margin-right:20px;
+    
+}
+.resume-1 ul li::before{
+    content:'';
+    width: 8px;
+    height:8px;
+    display:inline-block;
+    background:#ffffff;
+    border-radius: 50%;
+    margin-right:10px;
+}
+.name-2 ul li{
+    padding:0px 40px;
+}
+.name-2 h2{
+    margin-top:20px;
+}
+.resume-1{
+    padding-bottom:20px;
+}
+/*----SERVICES SECTION----*/
+.services-1{
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+}
+.services{
+    color:white;
+}
+.services h3{
+    font-family: "poppins";
+    font-size:14px;
+    line-height: 16px;
+    color:#fff;
+    padding-top:20px;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    letter-spacing: 2;
+    margin-bottom: 20px;;
+}
+.services h3::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.services h1{
+    margin: -15px 0 15px 0;
+font-size: 36px;
+font-weight: 700;
+text-transform: uppercase;
+font-family: "Poppins", sans-serif;
+color: #fff;
+}
+.services-sq h2{
+   font-family: "raleway";
+   font-size: 24px;
+}
+.services-sq{
+    text-align: center;
+    background: rgba(204, 204, 204, 0.1);
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    width:300px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.services-sq h2{
+    font-family: "raleway";
+    line-height: 26px;;
+    font-style: 24px;
+    margin-bottom: 20px;
+}
+.services-sq p{
+    font-family: "open sans";
+    line-height: 24px;
+font-size: 14px;
+margin-bottom: 0;
+}
+.services-sq:hover{
+    background:#18d26e;
+}
+/*----PORTFOLIO-SECTION----*/
+.portfolio h2{
+    font-family: "poppins";
+    font-size:14px;
+    line-height: 16px;
+    color:#fff;
+    padding-top:20px;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    letter-spacing: 2;
+    margin-bottom: 20px;;
+}
+.portfolio h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.portfolio h1{
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.portfolio-1{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding:0px 20px;
+    
+}
+.portfolio-img{
+    width:300px;
+    margin-bottom:20px; 
+    transition: all ease-in-out 0.3s; 
+}
+.portfolio-img:hover{
+ opacity:0.7;
+}
+.portfolio h1,
+.portfolio h2{
+    margin-left:50px;
+}
+/*----CONTACT FORM----*/
+.contact h2{
+    font-family: "poppins";
+    font-size:14px;
+    line-height: 16px;
+    color:#fff;
+    padding-top:20px;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    letter-spacing: 2;
+    margin-bottom: 20px;;
+}
+.contact h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.contact h3{
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.first-bar{
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+}
+.bar-1{
+    background:rgba(30, 29, 29, 0.86);
+    padding:20px;
+    width:485px;
+    margin-right: 30px;;
+    margin-bottom:30px;
+}
+.first-bar h1{
+    font-family:"raleway";
+    font-size: 20px;
+color: rgba(255, 255, 255, 0.5);
+font-weight: 700;
+margin: 10px 0 8px 68px;
+}
+.first-bar p{
+    font-family: "open sans";
+    padding: 0;
+color: #fff;
+line-height: 24px;
+font-size: 14px;
+margin: 0 0 0 68px;
+}
+.container-form{
+    background:rgba(30, 29, 29, 0.86);
+    max-width:1140px;
+    margin: 0 auto;
+}
+.name-email{
+    display:flex;
+    padding:20px;
+}
+.name-1 input{
+    width:475px;
+    padding:15px 25px 15px 15px;
+    background:rgba(255, 255, 255, 0.08);
+    font-family:"poppins";
+    color:rgba(255, 255, 255, 0.5);
+    border: none;
+
+}
+.sub input{
+    width:1025px;
+    padding:15px 25px 15px 15px;
+    background:rgba(255, 255, 255, 0.08);
+    font-family:"poppins";
+    color:rgba(255, 255, 255, 0.5);
+    border: none;
+    margin-left:19px;
+    margin-bottom:20px;
+}
+.text textarea{
+    width:1030px;
+    background:rgba(255, 255, 255, 0.08);
+    font-family:"poppins";
+    color:rgba(255, 255, 255, 0.5);
+    border: none;
+    margin-left:19px;
+    margin-bottom:20px;
+    padding:15px 25px 15px 15px;
+}
+.button a{
+ background:#18d26e;
+ display: inline-block;
+ margin-left:460px;
+ border: 0;
+padding: 10px 30px;
+color: #fff;
+transition: 0.4s;
+border-radius: 4px;
+text-decoration: none;
+font-family:"open sans" ;
+margin-bottom: 20px;
+
+}
+
+.button a:hover{
+    background: #15bb62;
+}
